@@ -124,7 +124,7 @@ height: 200px;
   #logo{
     filter: brightness(1) invert(0);
   }
-  @media (min-width: 600px){
+  @media (max-width: 600px){
     
     #page1 {
         height: 100%;
