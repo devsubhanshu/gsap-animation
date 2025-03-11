@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html,
+body {
+    height: 100%;
+    /* width: 100vw; */
+    /* overflow-x: hidden; */
+}
+
+#page1 {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(16, 17, 17);
+    display: block;
+   align-items: center;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+  padding-inline: 1rem;
+}
+#item{
+    color: #fff;
+}
+#page1 #item1 img{
+height: 200px;
+/* width: 200px; */
+
+}
+#page1  #navlinks a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block; 
+    margin-left: 25px;
+}
+#page1  #navlinks{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+   
+}
+#name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-top: 10%;
+    font-size: 200px;
+    overflow-x: hidden;
+}
+   
+#page2 {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(15, 15, 13);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   overflow-x: hidden;
+}
+#page3 h2{
+ font-size: 50px;
+    color: #fff;
+    display: block;
+   margin-left: -100px;
+    
+}
+#page3 h3{
+    font-size: 50px;
+       color: #fff;
+       margin-right: -100px;
+   }
+
+.video {
+    /* position: fixed; */
+    width: 50vw;
+    height: 50vh;
+    object-fit: cover;
+    z-index: 1000;
+  }
+  #page4 {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(16, 17, 17);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   overflow-x: hidden;
+  }
+  #page4 p{
+    font-size: 300px;
+    color: #fff;
+    font-weight: 800;
+   
+  }
+  #layer-barba-transition{
+    width: 100vw;
+    height: 100dvh;
+    position: fixed;
+    left: 0;
+    background-color: coral;
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #logo{
+    filter: brightness(1) invert(0);
+  }
+  @media (min-width: 600px){
+    
+    #page1 {
+        height: 100%;
+        width: 100%;
+        background-color: rgb(23, 23, 117);
+        display: block;
+       align-items: center;
+        justify-content: center;
+    }
+    
+    #container {
+        display: flex;
+        align-items: center;
+       justify-content: space-between;
+      padding-right: 2rem;
+    }
+    #item{
+        color: #fff;
+    }
+    #page1 #item1 img{
+    height: 100px;
+    /* width: 200px; */
+    
+    }
+    #page1  #navlinks a{
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: block;
+    }
+    #page1  #navlinks{
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+    }
+    #name{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        margin-top: 25%;
+        font-size: 100px;
+        overflow-x: hidden;
+       
+    }
+       
+    #page2 {
+        height: 100%;
+        width: 100%;
+        background-color: rgb(236, 82, 26);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #page3{
+        height: 100%;
+        width: 100%;
+        background-color: #34c488;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       overflow-x: hidden;
+    }
+    #page3 h2{
+     font-size: 35px;
+        color: greenyellow;
+        display: block;
+       margin-left: -100px;
+        
+    }
+    #page3 h3{
+        font-size: 35px;
+           color: greenyellow;
+           margin-right: -100px;
+       }
+    
+    .video {
+        /* position: fixed; */
+        width: 50vw;
+        height: 50vh;
+        object-fit: cover;
+        z-index: 1000;
+      }
+      #page4 {
+        height: 100%;
+        width: 100%;
+        background-color: rgb(75, 37, 146);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       overflow-x: hidden;
+      }
+      #page4 p{
+        font-size: 200px;
+        color: #be2b2b;
+        font-weight: 800;
+       
+      }
+      #layer-barba-transition{
+        width: 100vw;
+        height: 100dvh;
+        position: fixed;
+        left: 0;
+        background-color: coral;
+        z-index: 10000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #logo{
+        filter: brightness(1) invert(0);
+      }
+  }
